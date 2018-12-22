@@ -1,0 +1,47 @@
+.content {
+  background-color: green;
+  flex: 1;
+  display: flex;
+}
+
+.main{
+  background-color: aliceblue;
+  flex: .5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.gallery {
+  background-color: #CCC;
+  flex: 1;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.gallery-img img {
+  max-height: 100%;
+  align-items: center;
+
+}
+
+.sidebar{
+  background-color: #FFFF99;
+  flex: .5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.blog-post {
+  background-color: #FFFF99;
+  border: 1px solid black;
+  flex: .5;
+  margin: 5px;
