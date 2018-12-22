@@ -1,0 +1,29 @@
+.content {
+  background-color: green;
+  flex: .5;
+  display: flex;
+}
+
+.main{
+  background-color: aliceblue;
+  flex: 0 0 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.gallery {
+  background-color: #ccc;
+  flex: 1;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.gallery-img img {
+  max-height: 100%;
+  border-radius: 100px;
+}
